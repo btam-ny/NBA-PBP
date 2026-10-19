@@ -1,0 +1,4 @@
+duckdb==1.5.6
+pandas>=2.2,<3
+requests>=2.31,<3
+# Only needed for `backfill` (run locally): nba_api
