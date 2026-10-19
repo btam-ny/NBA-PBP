@@ -1,4 +1,4 @@
-duckdb==1.5.6
+duckdb==1.5.3  # match the version MotherDuck currently serves (1.5.6 fails to load the extension)
 pandas>=2.2,<3
 requests>=2.31,<3
 # Only needed for `backfill` (run locally): nba_api
